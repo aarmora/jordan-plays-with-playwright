@@ -1,0 +1,31 @@
+{
+	"name": "jordan-scrapes-with-playwright",
+	"version": "1.0.0",
+	"description": "Jordan shows examples of how to use playwright, a headless browser automation tool.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-scrapes-with-playwright.git"
+	},
+	"keywords": [
+		"javascript",
+		"playwright",
+		"web",
+		"scraping"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-scrapes-with-playwright/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-scrapes-with-playwright#readme",
+	"dependencies": {
+		"playwright": "^0.10.0"
+	},
+	"devDependencies": {
+		"@types/node": "^13.7.0"
+	}
+}

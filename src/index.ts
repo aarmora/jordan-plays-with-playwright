@@ -3,7 +3,8 @@ const playwright = require('playwright');
 
 (async () => {
 
-	await tryDevices();
+	// await tryDevices();
+	await tryBrowsers();
 })();
 
 
@@ -57,7 +58,7 @@ async function tryBrowsers() {
 		// }
 
 		// Click based on text content
-		await page.click('text="Pricing"');
+		await page.click('text="SCHEDULE NOW"');
 
 		await page.screenshot({ path: `cobalt-int-${browserType}.png` });
 
